@@ -1,0 +1,104 @@
+.body__section {
+    width: 100%;
+    display: flex;
+}
+
+.body__section .left__menu {
+    /* display: flex; */
+    /* ????? */
+    /* flex for what */
+    margin-top: 25px;
+}
+
+.left__menu-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.left__menu-item .menu__item {
+    width: 100px;
+    text-align: center;
+    padding: 20px 0px;
+    /* 
+
+ */
+}
+
+.left__menu-item .menu__item:hover {
+    background: rgb(235, 235, 232);
+}
+
+.left__menu-item .menu__item span {
+    display: block;
+}
+
+.left__menu-item .menu__item .text {
+    font-size: 17px;
+    border-bottom: 20px;
+    margin: none;
+}
+
+.left__menu-item .menu__item .item__icon {
+    color: var(--my-text-color1);
+    margin: none;
+}
+
+/* ------------*/
+
+.center__menu {
+    width: 100%;
+}
+
+.center__menu .center__menu-text {
+    display: flex;
+    overflow: auto;
+    text-align: center;
+    border-top: 1px solid var(--my-border-color);
+    border-bottom: 1px solid var(--my-border-color);
+    margin-top: 15px;
+}
+
+.center__menu .center__menu-text li {
+    font-size: 25px;
+    border: solid 1px rgb(202, 196, 196);
+    border-radius: 30px;
+    margin: 15px 20px;
+    padding: 8px 5px;
+    background: var(--my-text-color2);
+}
+
+.center__menu .center__menu-text li .active {
+    background: var(--my-text-color1);
+    color: white;
+}
+
+.main__menu__videos-container {
+    
+}
+
+ul.main__menu__list {
+    display: flex;
+   
+}
+.video-container .image-container img{
+    width: 100%;
+}
+.main__menu__videos-container li{
+    margin: 40px 15px;
+}
+.video-info-container .video-name{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    
+}
+.video-info-container .author-name{
+    margin-top: 10px;
+    color:rgb(105, 103, 103);
+}
+.view-container span{
+    color:rgb(105, 103, 103);
+    font-size: 30px;
+}

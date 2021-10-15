@@ -1,0 +1,23 @@
+:root {
+    
+    --my-text-color1: #000;
+    --my-text-color2: #f0f0f0;
+    --my-background-color: rgb(255, 255, 255);
+    --my-border-color: #d5d5d5;
+    
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+    list-style-type: none;
+    font-size: 35px;
+    
+  }
+  
+  body {
+    background-color: var(--my-background-color)
+  }
